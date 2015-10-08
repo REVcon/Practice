@@ -1,0 +1,133 @@
+.main
+{
+    width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    border: 1px solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+/* Here custom styles begin */
+.block1
+{
+    height: 50px;
+    width: 70%;
+    background: #00FFFF;
+}
+
+.block2
+{
+    height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    background: #33ccff;
+}
+
+.block3
+{
+    margin-top: 10px;
+}
+
+.box1
+{
+    height: 300px;
+    width: 500px;
+    background: #3399ff;
+    padding: 20px;
+}
+
+.row1
+{
+    height: 70px;
+    padding-bottom: 15px;
+}
+
+.item1
+{
+    height: 40px;
+    width: 200px;
+    background: #9999ff;
+}
+
+.item2
+{
+    height: 70px;
+    width: 250px;
+    background: #cc66ff;
+}
+
+.item3
+{
+    height: 50px;
+    background: #ff6666;
+}
+
+.row2
+{
+    margin-top: 20px;
+    height: 70px;
+}
+
+.item4
+{
+    height: 100%;
+    width: 100px;
+    background: #660033;
+}
+
+.item5
+{
+  height: 100%;
+    width: 80px;
+    margin-left: 20px;
+    background: #000066;
+}
+
+.item6
+{
+    height: 100%;
+    width: 90px;
+    background: #999967;
+}
+
+.box2
+{
+    height: 300px;
+    width: 400px;
+    float: right;
+    background: #6699ff;
+}
+
+.row
+{
+    height: 60px;
+    padding-bottom: 15px;
+}
+
+.pinkItem
+{
+    height: 100%;
+    width: 80px;
+    background: #ff00ff;
+}
+
+.blueItem
+{
+    height: 100%;
+    width: 70px;
+    background: #0033cc;
+    margin-right: 10px;
+}
+
+.violetItem
+{
+    height: 50px;
+    width: 100%;
+    background: #6600cc;
+}
+
+
+
+
+/* Here custom styles end */
