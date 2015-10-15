@@ -1,0 +1,433 @@
+.main
+{
+    width: 930px;
+    padding: 35px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    border-top: 5px solid #f2ac04;
+}
+
+.header
+{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.logo
+{
+    float: left;
+}
+
+.logo-caption
+{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding-left: 30px;
+    float: left;
+    border-left: 1px solid #cccccc;
+}
+
+.logo-caption div.title
+{
+    color: #f2ac04;
+    font: 20px 'Arial', sans-serif;
+}
+
+.logo-caption div.text
+{
+    margin-top: 5px;
+    font: 14px 'Tanoma', sans-serif;
+}
+
+.menu
+{
+    margin-top: 23px;
+    border-top: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+    width: 92%;
+    padding: 10px 0 10px 75px;
+    display: inline-block;
+}
+
+.menu ul
+{
+    list-style-type: none;
+}
+
+.menu li
+{
+    font: 18px 'Arial', sans-serif;
+    float: left;
+}
+
+.menu ul div li
+{
+    margin-left: 80px;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+.text-title
+{
+    color: #555656;
+    clear: both;
+    margin-top: 30px;
+    font: 12px 'Tahoma', sans-serif;
+}
+
+.content
+{
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+}
+
+.slider
+{
+    float:left;
+    display: inline-block;
+    padding: 2px;
+    width: 48%;
+    border: 1px solid #cccccc;
+}
+
+.slider div.caption
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 20px;
+    width: 408;
+}
+
+.slider div.caption div.text
+{
+    float: left;
+    margin-left: 40px;
+    font: 18px 'Tahoma', sans-serif;
+}
+
+.block
+{
+    float:  right;
+    display: inline-block;
+    padding: 2px;
+    width: 48%;
+    position: relative;
+}
+
+.block div.text
+{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20%;
+    color: #ffffff;
+    font-family: 'Tahoma';
+    font-size: 36px;
+}
+
+.block div.text div.title
+{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.block p
+{
+    padding-top: 15px;
+    text-align: left;
+    border-top: 1px solid;
+    font: 12px 'Tahoma', sans-serif;
+    line-height: 1.8;
+}
+
+.block a
+{
+    float: right;
+}
+
+.info
+{
+    clear: both;
+    display: inline-block;
+    margin-top: 10px;
+    border-top: 1px solid #ccb7b7;
+    padding-top: 30px;
+}
+
+.latest-news
+{
+    display: inline-block;
+    float: left;
+    width: 29%;
+    padding-right: 1%;
+    padding-bottom:1%;
+    border-right: 1px solid  #ccb7b7;
+}
+
+.info div.title
+{
+    color: #555656;
+    font: 18px 'Arial', sans-serif;
+    margin-left: 5px;
+}
+
+.latest-news ul
+{
+    margin-top: 12px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.latest-news ul li
+{
+    display: inline-block;
+    color: #939393;
+    font: 12px 'Arial', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ccb7b7;
+}
+
+.latest-news ul li div.date
+{
+    float: left;
+    height: 100%;
+    border-right: 1px solid #ccb7b7;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.latest-news ul li div.date div.day
+{
+    color: #f2ac04;
+    font: 18px 'Verdana', sans-serif;
+}
+
+.latest-news ul li div.date div.month
+{
+    color: #777777;
+    font: 9px 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.latest-news ul li a
+{
+    text-decoration: none;
+    color: #565656;
+    font: 14px 'Arial',sans-serif;
+}
+
+.latest-news ul li p
+{
+    padding-top: 5px;
+    color: #939393;
+    font: 12px 'Tahoma', sans-serif;
+}
+
+.about
+{
+    float: left;
+    text-align: left;
+    width: 28%;
+    padding: 0 40px;
+}
+
+.about div.text
+{
+    margin-top: 25px;
+    color: #3c3c3c;
+    font: 16px 'Tahoma';
+    line-height: 1.45;
+}
+
+.about a
+{
+    margin-top: 15px;
+}
+
+.contacts
+{
+    float: left;
+    width: 27%;
+    border-left: 1px solid  #ccb7b7;
+    padding-left: 4.86%;
+}
+
+.contacts div.contacts-title
+{
+    float: left;
+    margin-top: -5px;
+    margin-left: 5px;
+    color: #555656;
+    font: 23px 'Arial', sans-serif;
+}
+
+.contacts ul
+{
+    list-style-type: none;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.contacts ul li
+{
+    display: inline-block;
+    width: 100%;
+    text-align: middle;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.contacts ul li.border p
+{
+    font: 14px 'Tahoma', sans-serif;
+    color: #757575;
+    margin-left: 5px;
+}
+
+.contacts ul li img
+{
+    float: left;
+    padding-right: 10%;
+}
+
+.contacts ul li.border
+{
+    width: 90%;
+    border-bottom: 1px dotted #ccb7b7;
+}
+
+.contacts ul li div.address
+{
+    display: inline-block;
+    float: left;
+}
+
+.contacts ul li div.address p
+{
+    color: #757575;
+    font: 16px 'Tahoma', sans-serif;
+    line-height: 1.5;
+}
+
+.clients
+{
+    width: 100%;
+    margin-top: 55px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.clients div.text-clients
+{
+    float: left;
+    font: 14px 'Tahoma', sans-serif;
+    margin-left: 40px;
+    margin-top: -10px;
+    color: #343434;
+    background: #fff;
+    padding: 0 10px;
+}
+
+.clients div.img-clients
+{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 7px;
+}
+
+.client1
+{
+    float: left;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.client2
+{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.client3
+{
+    float: left;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.client4
+{
+    float: left;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.client5
+{
+    float: left;
+    margin-left: 70px;
+}
+
+.client6
+{
+    float: left;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+
+.footer
+{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.footer img
+{
+    max-width: 15%;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer ul.bottom-menu
+{
+    margin-left: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer ul.bottom-menu li
+{
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    list-style-position: inside;
+    font: 10px 'Arial', sans-serif;
+}
+
+.footer ul.bottom-menu li a
+{
+    text-decoration: none;
+    color: #535353;
+}
+
+.footer p
+{
+    font-family: 'Arial';
+    font-size: 14px;
+    color: #545454;
+    text-align: center;
+    margin: 0;
+}
