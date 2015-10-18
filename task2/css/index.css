@@ -28,13 +28,13 @@
     border-left: 1px solid #cccccc;
 }
 
-.logo-caption div.title
+.header h1
 {
     color: #f2ac04;
     font: 20px 'Arial', sans-serif;
 }
 
-.logo-caption div.text
+.header p
 {
     margin-top: 5px;
     font: 14px 'Tanoma', sans-serif;
@@ -59,9 +59,10 @@
 {
     font: 18px 'Arial', sans-serif;
     float: left;
+    display: inline;
 }
 
-.menu ul div li
+.menu li.left
 {
     margin-left: 80px;
 }
@@ -72,7 +73,7 @@
     color: #6b6b6b;
 }
 
-.text-title
+h2
 {
     color: #555656;
     clear: both;
@@ -80,7 +81,7 @@
     font: 12px 'Tahoma', sans-serif;
 }
 
-.content
+.jumbotron
 {
     display: inline-block;
     padding: 5px;
@@ -104,7 +105,7 @@
     width: 408;
 }
 
-.slider div.caption div.text
+.slider h4
 {
     float: left;
     margin-left: 40px;
@@ -127,14 +128,19 @@
     left: 20px;
     top: 20%;
     color: #ffffff;
+}
+
+.block h4
+{
+    font-weight: normal;
     font-family: 'Tahoma';
     font-size: 36px;
 }
 
-.block div.text div.title
+.block h3
 {
     font-weight: normal;
-    font-size: 24px;
+    font: 24px 'Tahoma';
 }
 
 .block p
@@ -151,13 +157,13 @@
     float: right;
 }
 
-.info
+.learn-more
 {
     clear: both;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
     border-top: 1px solid #ccb7b7;
-    padding-top: 30px;
+    padding-top: 34px;
 }
 
 .latest-news
@@ -170,31 +176,31 @@
     border-right: 1px solid  #ccb7b7;
 }
 
-.info div.title
+.latest-news h3
 {
     color: #555656;
     font: 18px 'Arial', sans-serif;
-    margin-left: 5px;
+    margin-left: 6px;
 }
 
 .latest-news ul
 {
-    margin-top: 12px;
+    margin-top: 20px;
     margin-left: 10px;
     list-style-type: none;
 }
 
-.latest-news ul li
+.latest-news li
 {
     display: inline-block;
     color: #939393;
     font: 12px 'Arial', sans-serif;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px dotted #ccb7b7;
 }
 
-.latest-news ul li div.date
+.latest-news div.date
 {
     float: left;
     height: 100%;
@@ -204,13 +210,13 @@
     margin-bottom: 10px;
 }
 
-.latest-news ul li div.date div.day
+.latest-news div.day
 {
     color: #f2ac04;
     font: 18px 'Verdana', sans-serif;
 }
 
-.latest-news ul li div.date div.month
+.latest-news div.month
 {
     color: #777777;
     font: 9px 'Arial', sans-serif;
@@ -218,29 +224,37 @@
     margin: 0;
 }
 
-.latest-news ul li a
+.latest-news a
 {
     text-decoration: none;
     color: #565656;
     font: 14px 'Arial',sans-serif;
 }
 
-.latest-news ul li p
+.latest-news p
 {
     padding-top: 5px;
     color: #939393;
     font: 12px 'Tahoma', sans-serif;
+    font-style:normal;
 }
 
 .about
 {
+    display: inline-block;
     float: left;
     text-align: left;
     width: 28%;
     padding: 0 40px;
 }
 
-.about div.text
+.about h3
+{
+    color: #555656;
+    font: 18px 'Arial', sans-serif;
+}
+
+.about p
 {
     margin-top: 25px;
     color: #3c3c3c;
@@ -255,13 +269,14 @@
 
 .contacts
 {
+    display: inline-block;
     float: left;
     width: 27%;
     border-left: 1px solid  #ccb7b7;
     padding-left: 4.86%;
 }
 
-.contacts div.contacts-title
+.contacts h3
 {
     float: left;
     margin-top: -5px;
@@ -277,56 +292,63 @@
     margin-left: 5px;
 }
 
-.contacts ul li
+.contacts li
 {
     display: inline-block;
     width: 100%;
     text-align: middle;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
-.contacts ul li.border p
+.contacts li.border p
 {
     font: 14px 'Tahoma', sans-serif;
     color: #757575;
     margin-left: 5px;
 }
 
-.contacts ul li img
+.contacts span.mail
+{
+    font: 16px 'Arial', sans-serif;
+    color: #757575;
+    margin-left: 5px;
+}
+
+.contacts img
 {
     float: left;
     padding-right: 10%;
 }
 
-.contacts ul li.border
+.contacts li.border
 {
     width: 90%;
     border-bottom: 1px dotted #ccb7b7;
 }
 
-.contacts ul li div.address
+.contacts div.address
 {
     display: inline-block;
     float: left;
 }
 
-.contacts ul li div.address p
+.contacts div.address p
 {
     color: #757575;
-    font: 16px 'Tahoma', sans-serif;
+    font: 16px 'Arial', sans-serif;
     line-height: 1.5;
 }
 
 .clients
 {
     width: 100%;
-    margin-top: 55px;
+    margin-top: 45px;
     border-top: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
 }
 
-.clients div.text-clients
+.clients h3
 {
     float: left;
     font: 14px 'Tahoma', sans-serif;
@@ -396,28 +418,28 @@
 {
     max-width: 15%;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.footer ul.bottom-menu
+.footer ul
 {
     margin-left: 10px;
     text-align: center;
     list-style-type: none;
 }
 
-.footer ul.bottom-menu li
+.footer li
 {
     padding: 0;
-    display: inline-block;
+    display: inline;
     text-align: center;
     list-style-position: inside;
     font: 10px 'Arial', sans-serif;
 }
 
-.footer ul.bottom-menu li a
+.footer a
 {
     text-decoration: none;
     color: #535353;
