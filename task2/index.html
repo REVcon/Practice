@@ -3,7 +3,6 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>13</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/index.css" media="all" />
   </head>
   <body>
@@ -18,13 +17,11 @@
         </div>
       </div>
       <div class="menu">
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li class="left"><a href="#">PRODUCTS</a></li>
-          <li class="left"><a href="#">NEWS</a></li>
-          <li class="left"><a href="#">ABOUT US</a></li>
-          <li class="left"><a href="#">CONTACT US</a></li>
-        </ul>
+        <a href="#">HOME</a>
+        <a href="#" class ="margin80">PRODUCTS</a>
+        <a href="#" class ="margin80">NEWS</a>
+        <a href="#" class ="margin85">ABOUT US</a>
+        <a href="#" class ="margin80">CONTACT US</a>
       </div>
       <h2> FEATURED PRODUCTS </h2>
       <div class="jumbotron">
@@ -45,7 +42,7 @@
           </div>
           <p>
               The mission of Orlin Research, Inc. is to produce software products that multiply the
-              power and efficiency of empirical scientific research in the social sciences.
+              power and efficiency of empirical scientific research in the social sciences.<br/>
               A central goal is to expand access to complex data sources and to the advanced
               methods of scientific investigation needed to analyze them.
           </p>
@@ -55,32 +52,32 @@
       <div class="learn-more">
         <div class="latest-news">
           <h3>LATEST NEWS</h3>
-          <ul>
-            <li>
+          <div class="dates">
+            <div class="day1">
               <div class="date">
                 <div class="day">27</div>
                 <div class="month">NOV</div>
               </div>
-              <a href="#"><b>An early access preview</b></a>
+              <div class="link"><a href="#"><b>An early access preview</b></a></div>
               <p>An early access preview of the Orlin Data Manager is available...</p>
-            </li>
-            <li>
+            </div>
+            <div class="day2">
               <div class="date">
                 <div class="day">17</div>
                 <div class="month">DEC</div>
               </div>
-              <a href="#"><b>An early access preview</b></a>
+              <div class="link"><a href="#"><b>An early access preview</b></a></div>
               <p>An early access preview of the Orlin Data Manager is available...</p>
-            </li>
-            <li>
+            </div>
+            <div class="day3">
               <div class="date">
                 <div class="day">21</div>
                 <div class="month">DEC</div>
               </div>
-              <a href="#"><b>An early access preview</b></a>
+              <div class="link"><a href="#"><b>An early access preview</b></a></div>
               <p>An early access preview of the Orlin Data Manager is available...</p>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
         <div class="about">
           <h3>WHO WE ARE?</h3>
@@ -91,29 +88,25 @@
         </div>
         <div class="contacts">
           <h3>Contact Us</h3>
-          <ul>
-            <li class="border">
-              <img src="img/icons/phone.png">
-              <p><b>(626) 921-4592</b></p>
-            </li>
-            <li class="border">
-              <img src="img/icons/fax.png">
-              <p><b>(626) 921-4592</b></p>
-            </li>
-            <li class="border">
-              <img src="img/icons/e-mail.png">
-              <p>info@orlinresearch.com</p>
-            </li>
-            <li>
-              <img src="img/icons/house.png">
-              <div class="address">
-                <h6> Orlin Research, Inc.</h6>
-                <p>7412 Ridgewood Ave </p>
-                <p>Chevy Chase, MD 20815</p>
-                <p>USA</p>
-              </div>
-            </li>
-          </ul>
+          <div class="border phone">
+            <img src="img/icons/phone.png">
+            <p><b>(626) 921-4592</b></p>
+          </div>
+          <div class="border fax">
+            <img src="img/icons/fax.png">
+            <p><b>(626) 921-4592</b></p>
+          </div>
+          <div class="border mail">
+            <img src="img/icons/e-mail.png">
+            <p>info@orlinresearch.com</p>
+          </div>
+          <div class="location">
+            <img src="img/icons/house.png">
+            <div class="address">
+              <h6> Orlin Research, Inc.</h6>
+              <p>7412 Ridgewood Ave<br/>Chevy Chase, MD 20815<br/>USA</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="clients">
@@ -129,16 +122,16 @@
       </div>
       <div class="footer">
         <img src="img/logo-bot.png">
-        <ul>
-          <li><a href="#"><b>HOME&nbsp; </b></a> | </li>
-          <li><a href="#"><b> &nbsp;ABOUT US&nbsp; </b></a> | </li>
-          <li><a href="#"><b> &nbsp;WORK&nbsp; </b></a> | </li>
-          <li><a href="#"><b> &nbsp;SERVICES&nbsp; </b></a> | </li>
-          <li><a href="#"><b> &nbsp;RESOURCES&nbsp; </b></a> | </li>
-          <li><a href="#"><b> &nbsp;ARTICLES&nbsp; </b></a> | </li>
-          <li><a href="#"><b> &nbsp;CONTACT </b></a></li>
-        </ul>
-        <p>© 2009 Orlin Research, Inc</p>
+        <div class="links">
+          <div class="link"><a href="#"><b>HOME</b></a> &nbsp;|</div>
+          <div class="link about-us"><a href="#"><b> &nbsp;ABOUT US&nbsp;</b></a> | </div>
+          <div class="link work"><a href="#"><b> &nbsp;WORK&nbsp; </b></a> | </div>
+          <div class="link services"><a href="#"><b> &nbsp;SERVICES&nbsp; </b></a> | </div>
+          <div class="link resources"><a href="#"><b> &nbsp;RESOURCES&nbsp; </b></a> | </div>
+          <div class="link articles"><a href="#"><b> &nbsp;ARTICLES&nbsp; </b></a> | </div>
+          <div class="link contact"><a href="#"><b> &nbsp;CONTACT </b></a></div>
+        </div>
+        <p>&copy; 2009 Orlin Research, Inc</p>
       </div>
     </div>
   </body>

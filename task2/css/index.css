@@ -1,6 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+
+body
+{
+    background: url("../img/background.png");
+}
+
 .main
 {
-    width: 930px;
+    background:#ffffff;
+    width: 934px;
     padding: 35px;
     margin: 0 auto;
     border: 1px solid #cccccc;
@@ -50,21 +70,20 @@
     display: inline-block;
 }
 
-.menu ul
-{
-    list-style-type: none;
-}
-
-.menu li
+.menu a
 {
     font: 18px 'Arial', sans-serif;
     float: left;
-    display: inline;
 }
 
-.menu li.left
+.menu .margin80
 {
     margin-left: 80px;
+}
+
+.menu .margin85
+{
+    margin-left: 85px;
 }
 
 .menu a
@@ -78,7 +97,7 @@ h2
     color: #555656;
     clear: both;
     margin-top: 30px;
-    margin-left: 5px;
+    margin-left: 6px;
     font: 12px 'Tahoma', sans-serif;
 }
 
@@ -99,7 +118,7 @@ h2
     border: 1px solid #cccccc;
 }
 
-.slider div.caption
+.slider .caption
 {
     display: inline-block;
     vertical-align: middle;
@@ -120,18 +139,23 @@ h2
 .block
 {
     float:  right;
+    margin-right: 5px;
     display: inline-block;
-    padding: 2px;
     width: 450px;
     position: relative;
+}
+
+.block img
+{
+   width: 100%;
 }
 
 .block div.text
 {
     display: inline-block;
     position: absolute;
-    left: 20px;
-    top: 20%;
+    left: 19px;
+    top: 62px;
     color: #ffffff;
 }
 
@@ -150,26 +174,26 @@ h2
 
 .block p
 {
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: left;
     border-top: 1px solid;
-    font: 12px 'Tahoma', sans-serif;
-    line-height: 1.8;
+    font: 12px/23px 'Tahoma', sans-serif;
 }
 
 .block a
 {
     float: right;
     margin-right: 3px;
+    margin-top: -3px;
 }
 
 .learn-more
 {
     clear: both;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 8px;
     border-top: 1px solid #ccb7b7;
-    padding-top: 30px;
+    padding-top: 32px;
     width: 100%;
 }
 
@@ -187,27 +211,60 @@ h2
 {
     color: #555656;
     font: 18px 'Arial', sans-serif;
-    margin-left: 6px;
+    margin-left: 8px;
 }
 
-.latest-news ul
+.latest-news .dates
 {
     margin-top: 20px;
     margin-left: 10px;
-    list-style-type: none;
 }
 
-.latest-news li
+.latest-news .day1
 {
     display: inline-block;
     color: #939393;
     font: 12px 'Arial', sans-serif;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-bottom: 1px dotted #ccb7b7;
 }
 
-.latest-news div.date
+.latest-news .day1 .link
+{
+    margin-top: 4px;
+}
+
+.latest-news .day2
+{
+    color: #939393;
+    font: 12px 'Arial', sans-serif;
+    padding-top: 17px;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #ccb7b7;
+}
+
+.latest-news .day2 .link
+{
+    margin-top: 2px;
+}
+
+
+.latest-news .day3
+{
+    color: #939393;
+    font: 12px 'Arial', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #ccb7b7;
+}
+
+.latest-news .day3 .link
+{
+    margin-top: 2px;
+}
+
+.latest-news .date
 {
     float: left;
     height: 100%;
@@ -217,13 +274,13 @@ h2
     margin-bottom: 10px;
 }
 
-.latest-news div.day
+.latest-news .day
 {
     color: #f2ac04;
     font: 18px 'Verdana', sans-serif;
 }
 
-.latest-news div.month
+.latest-news .month
 {
     color: #777777;
     font: 9px 'Arial', sans-serif;
@@ -240,7 +297,6 @@ h2
 
 .latest-news p
 {
-    padding-top: 5px;
     color: #939393;
     font: 12px 'Tahoma', sans-serif;
     font-style:normal;
@@ -259,6 +315,7 @@ h2
 {
     color: #555656;
     font: 18px 'Arial', sans-serif;
+    margin-left: -2px;
 }
 
 .about p
@@ -294,22 +351,6 @@ h2
     font: 23px 'Arial', sans-serif;
 }
 
-.contacts ul
-{
-    list-style-type: none;
-    margin-top: 35px;
-    margin-left: 5px;
-}
-
-.contacts li
-{
-    display: inline-block;
-    width: 100%;
-    text-align: middle;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .contacts p
 {
     font: 14px 'Tahoma', sans-serif;
@@ -319,20 +360,74 @@ h2
 .contacts img
 {
     float: left;
-    padding-right: 10%;
+    margin-left: 5px;
+    padding-right: 20px;
 }
 
-.contacts li.border
+.contacts .border
 {
     width: 90%;
     border-bottom: 1px dotted #ccb7b7;
 }
 
-.contacts div.address
+.contacts .phone
+{
+    display: inline-block;
+    width: 100%;
+    text-align: middle;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.contacts .fax
+{
+    display: inline-block;
+    width: 100%;
+    text-align: middle;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.contacts .fax p
+{
+    margin-top: 2px;
+}
+
+.contacts .mail
+{
+    display: inline-block;
+    width: 100%;
+    text-align: middle;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.contacts .mail p
+{
+    margin-top: 2px;
+}
+
+.contacts .location
+{
+    display: inline-block;
+    width: 100%;
+    text-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contacts .location .address
 {
     display: inline-block;
     text-align: left;
     float: left;
+}
+
+.contacts .location .address p
+{
+    margin-top: 5px;
+    font: 14px/22px 'Tahoma', sans-serif;
+    color: #757575;
 }
 
 .contacts h6
@@ -345,7 +440,7 @@ h2
 .clients
 {
     width: 100%;
-    margin-top: 65px;
+    margin-top: 55px;
     border-top: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
 }
@@ -371,7 +466,7 @@ h2
 .client1
 {
     float: left;
-    margin-left: 65px;
+    margin-left: 66px;
     margin-top: 15px;
 }
 
@@ -418,27 +513,54 @@ h2
 
 .footer img
 {
-    max-width: 15%;
     display: block;
-    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.footer ul
+.footer .links
 {
-    margin-left: 10px;
-    text-align: center;
-    list-style-type: none;
+    margin-top: 18px;
+    margin-left: 255px;
+    display: inline-block;
 }
 
-.footer li
+.footer .link
 {
-    padding: 0;
-    display: inline;
-    text-align: center;
-    list-style-position: inside;
+    float: left;
     font: 10px 'Arial', sans-serif;
+    //padding-right: 5px;
+  //  border-right: 1px solid;
+}
+
+.footer .links .about-us
+{
+    margin-left: 6px;
+}
+
+.footer .links .work
+{
+    margin-left: 4px;
+}
+
+.footer .links .services
+{
+    margin-left: 3px;
+}
+
+.footer .links .resources
+{
+    margin-left: 4px;
+}
+
+.footer .links .articles
+{
+    margin-left: 4px;
+}
+
+.footer .links .contact
+{
+    margin-left: 5px;
 }
 
 .footer a
@@ -449,9 +571,24 @@ h2
 
 .footer p
 {
+    margin-top: -3px;
     font-family: 'Arial';
     font-size: 14px;
     color: #545454;
     text-align: center;
-    margin: 0;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.clear
+{
+    clear: both;
 }
